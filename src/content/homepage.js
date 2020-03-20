@@ -64,7 +64,7 @@ const buttons = {
     type: "Slack",
     text: "Chat on Slack",
     icon: slackIcon,
-    link: "http://slack.openmined.org"
+    link: "http://slack.boxer.ai"
   },
   newsletter: {
     type: "Mailchimp",
@@ -511,7 +511,7 @@ export default {
     news: {
       blog: {
         name: "OpenMined Blog",
-        more: "https://blog.openmined.org",
+        more: "https://blog.boxer.ai",
         mailchimp: "http://eepurl.com/cW1Fqj",
         posts: []
       }
@@ -540,11 +540,11 @@ export default {
     links: [
       {
         text: "Blog",
-        link: "https://blog.openmined.org"
+        link: "https://blog.boxer.ai"
       },
       {
         text: "Store",
-        link: "https://store.openmined.org"
+        link: "https://store.boxer.ai"
       },
       {
         text: "Brand Guide",
