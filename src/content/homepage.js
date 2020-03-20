@@ -58,19 +58,20 @@ const buttons = {
     type: "OpenCollective",
     text: "Donate",
     icon: openCollectiveIcon,
-    link: "https://opencollective.com/openmined"
+    link: "https://www.flipcause.com/secure/cause_pdetails/NDA2NjY="
   },
   chat: {
     type: "Slack",
     text: "Chat on Slack",
     icon: slackIcon,
-    link: "http://slack.boxer.ai"
+    link:
+      "https://join.slack.com/t/boxerai/shared_invite/zt-czbzd8c7-6IQ2E3cjDmn2TKAdRpffAQ"
   },
   newsletter: {
     type: "Mailchimp",
     text: "Join Newsletter",
     icon: emailIcon,
-    link: "http://eepurl.com/cW1Fqj"
+    link: "https://enduringhearts.org/"
   }
 };
 
@@ -122,7 +123,7 @@ export default {
     content: [
       {
         text:
-          "To accelerate improvements in health outcomes for patients with heart transplants by uniting and aligning networks, organizations, and stakeholders across the field to advance research and improvement efforts through collaboration."
+          "To accelerate improvements in health outcomes for patients with heart transplants by uniting and aligning networks, organizations, and stakeholders across the field to advance research and improvement efforts through collaboration. Privacy is at the core of data sharing across owners in order to keep data private during the model training process. This is done by utilizing two methods of privacy preservation: federated learning and differential privacy."
       },
       {
         text:
@@ -139,24 +140,24 @@ export default {
     {
       colors: ["yellow", "green"],
       icon: nodesIcon,
-      title: "Remote Execution",
+      title: "Data Sharing",
       description:
-        "Privacy-preserving analysis begins with analysis on data you can’t see. Thus, it begins with the ability to run arbitrary computations on data which is inside a machine to which you don’t have access, otherwise known as remote execution. We extend PyTorch and Tensorflow with this ability to run remotely on an unseen machine.",
+        "Traditionally, Research is not been shared across Hospitals. Our goal is to accelerate learning in the Heart Biopsy space as quickly as possible by building a repository of patient data including Biopsy Imaging data, ECHO Data, PHTS Data, and OMICS. ",
       cards: [
         {
           // link: 'https://www.google.com',
-          subtitle: "Remote Execution",
-          heading: "Federated Learning",
+          subtitle: "Data Sharing",
+          heading: "DATA REPOSITORY",
           content:
-            "Federated learning is a type of remote execution wherein models are sent to remote data-holding machines (such as smart phones or IoT devices) for local training. This eliminates the need to store sensitive training data on a central server."
+            "We are proposing combining the digital outputs from the two EH-funded studies into a shared HIPPA-compliant comprehensive data repository to in the future for all pediatric cardiac transplant patients."
           // colab: 'https://www.google.com/search?q=colab'
         },
         {
           // link: 'https://www.google.com',
-          subtitle: "Remote Execution",
-          heading: "On-device Prediction",
+          subtitle: "Data Sharing",
+          heading: "DATA RIGHTS",
           content:
-            "On-device prediction is a special case of remote execution wherein models are used within an application locally instead of moving a dataset to the cloud for classification."
+            "Negotiating Data Sharing agreements can be expensive - Boxer.ai makes this process seamless with self-executing contracts. Data and Models can will be shared and governed by multiple owners, both the grant recipient, as well as the grant giving agency."
           // colab: 'https://www.google.com/search?q=colab'
         }
       ]
@@ -171,15 +172,15 @@ export default {
         {
           // link: 'https://www.google.com',
           subtitle: "Encrypted Computation",
-          heading: "Multi-party Computation",
+          heading: "FEDERATED LEARNING",
           content:
-            "When a model has multiple owners, multi-party computation allows for individuals to share control of a model without seeing its contents such that no sole owner can use or train it."
+            "Federated learning is a type of remote execution wherein models are sent to remote data-holding machines - This eliminates the need to store sensitive training data. When a model has multiple owners, multi-party computation allows for individuals to share control of a model."
           // colab: 'https://www.google.com/search?q=colab'
         },
         {
           // link: 'https://www.google.com',
           subtitle: "Encrypted Computation",
-          heading: "Homomorphic Encryption",
+          heading: "HOMOMORPHIC ENCRYPTION",
           content:
             "When a model has a single owner, homomorphic encryption allows an owner to encrypt their model so that untrusted 3rd parties can train or use the model without being able to steal it."
           // colab: 'https://www.google.com/search?q=colab'
@@ -189,24 +190,24 @@ export default {
     {
       colors: ["blue", "black"],
       icon: computerIcon,
-      title: "Differential Privacy",
+      title: "Private Patient Data",
       description:
         "Eventually you must request the results of your remote (or encrypted) analysis to be revealed (i.e., statistical results, a trained model, prediction, or synthetic dataset). Differential Privacy helps us answer the question, “If I were to reveal this datapoint, what’s the maximum amount of private information I may leak?” and obfuscate the data appropriately. We extend PyTorch and Tensorflow with the ability to perform differential privacy automatically.",
       cards: [
         {
           // link: 'https://www.google.com',
-          subtitle: "Differential Privacy",
-          heading: "Published techniques",
+          subtitle: "Private Patient Data",
+          heading: "DIFFERENTIAL PRIVACY",
           content:
-            "We incorporate standard techniques for differentially private ML including PATE, DP-SGD, Moments Accountant, as well as Laplace and Exponential mechanisms."
+            "Our initial use case is bringing together four Datasets by developing a tools for secure, privacy-preserving, value-aligned Pediatric Heart Transplant Research data to be re-used."
           // colab: 'https://www.google.com/search?q=colab'
         },
         {
           // link: 'https://www.google.com',
-          subtitle: "Differential Privacy",
-          heading: "Automatic DP",
+          subtitle: "Private Patient Data",
+          heading: "COMMUNITY LEADERSHIP ",
           content:
-            'We automatically track what operations you perform and add the appropriate amount of noise. This "autograd for DP" allows you to try out your own non-standard privacy functions to find optimal privacy/utility.'
+            "We make the process of sharing data across grant recipients, easy, efficient, and secure. "
           // colab: 'https://www.google.com/search?q=colab'
         }
       ]
@@ -511,7 +512,7 @@ export default {
     news: {
       blog: {
         name: "OpenMined Blog",
-        more: "https://blog.boxer.ai",
+        more: "https://blog.openmined.org",
         mailchimp: "http://eepurl.com/cW1Fqj",
         posts: []
       }
@@ -539,34 +540,34 @@ export default {
   footer: {
     links: [
       {
-        text: "Blog",
-        link: "https://blog.boxer.ai"
+        text: "For Investigators",
+        link: "https://enduringhearts.org/our-work/for-investigators/"
       },
       {
-        text: "Store",
-        link: "https://store.boxer.ai"
+        text: "Donate",
+        link: "https://www.flipcause.com/secure/cause_pdetails/NDA2NjY="
       },
       {
-        text: "Brand Guide",
-        link: "/assets/openmined-brand-guide.pdf"
+        text: "Center for Open Science",
+        link: "https://cos.io/"
       }
     ],
     social: [
       {
         title: "Github",
-        link: "https://github.com/OpenMined"
+        link: "https://github.com/aviyashchin/create-react-app-lambda"
       },
       {
         title: "Twitter",
-        link: "https://twitter.com/openminedorg"
+        link: "https://twitter.com/aviyashchin"
       },
       {
         title: "YouTube",
-        link: "https://www.youtube.com/c/OpenMinedOrg"
+        link: "https://www.youtube.com/"
       },
       {
         title: "Facebook",
-        link: "https://www.facebook.com/openminedorg/"
+        link: "https://www.facebook.com/avi.yashchin"
       }
     ]
   }
