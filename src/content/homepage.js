@@ -76,25 +76,25 @@ const buttons = {
 
 export default {
   hero: {
-    tagline: "Answer questions using data you cannot see",
+    tagline: "Making progress in health, together",
     description:
-      "OpenMined is an open-source community whose goal is to make the world more privacy-preserving by lowering the barrier-to-entry to private AI technologies.",
+      "Boxer.ai is an open-source community that believes an open exchange of ideas accelerates scientific progress. We aim to align efforts across heart transplant research networks to accelerate improvements in care.",
     buttons: [buttons.getStarted, buttons.tutorials],
     steps: [
       {
         link: "https://github.com/OpenMined/PySyft",
-        subtitle: "Library",
-        heading: "PySyft",
+        subtitle: "Generate UUIDs",
+        heading: "Ticket Server",
         content:
-          "PySyft is a Python library for secure, private machine learning. PySyft extends PyTorch, Tensorflow, and Keras with capabilities for remote execution, federated learning, differential privacy, homomorphic encryption, and multi-party computation.",
+          "UUID’s are 128 bits hexadecimal numbers which have a very very very low probability of getting generated twice. So one can simply use any UUID generator and use them for the primary keys.",
         github: "https://github.com/OpenMined/PySyft"
       },
       {
         link: "https://github.com/OpenMined/PyGrid/",
-        subtitle: "Platform",
-        heading: "PyGrid",
+        subtitle: "Train on data you cannot see",
+        heading: "Data Sharing",
         content:
-          "PyGrid is a platform for private AI using PySyft, enabling one to privately host models and datasets in the cloud for encrypted, federated prediction and training.",
+          "The Data Sharing ecosystem allows for various systems of shared ownership of generated data, models, and IP, allowing first-class research to be completed across Research organizations, funding sources, and Patients.",
         github: "https://github.com/OpenMined/PyGrid/"
       }
     ]
@@ -122,16 +122,16 @@ export default {
     content: [
       {
         text:
-          "Industry standard tools for artificial intelligence have been designed with several assumptions: data is centralized into a single compute cluster, the cluster exists in a secure cloud, and the resulting models will be owned by a central authority.  We envision a world in which we are not restricted to this scenario - a world in which AI tools treat privacy, security, and multi-owner governance as first class citizens."
+          "To accelerate improvements in health outcomes for patients with heart transplants by uniting and aligning networks, organizations, and stakeholders across the field to advance research and improvement efforts through collaboration."
       },
       {
         text:
-          "With OpenMined, an AI model can be governed by multiple owners and trained securely on an unseen, distributed dataset.",
+          "With Boxer.ai, an AI model can be governed by multiple owners and trained securely on an unseen, distributed dataset.",
         strong: true
       },
       {
         text:
-          "The mission of the OpenMined community is to create an accessible ecosystem of tools for private, secure, multi-owner governed AI. We do this by extending popular libraries like TensorFlow and PyTorch with advanced techniques in cryptography and private machine learning."
+          "Physicians and researchers are more easily able to identify the connections, correlations and patterns to the puzzles they are working to solve. Boxer.ai is creating solutions to enable a smarter, more connected healthcare system that can assist clinicians to deliver better care, empowering people to make better choices, and sharing data across research organizations. "
       }
     ]
   },
